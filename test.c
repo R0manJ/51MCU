@@ -123,12 +123,12 @@ void showTemp(int data)
     }
 }
 
-
-
+// 需要编写 串口通讯逻辑 ， 用于检查 DS18B20 的使用情况。
 void main()
 {
     while(1)
     {
         showTemp(DS18B20ReadTemp);
+        //test git
     }
 }
